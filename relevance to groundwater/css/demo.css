@@ -1,0 +1,187 @@
+@font-face {
+	font-family:"Didact Gothic";
+}
+
+.clearfix:before,
+.clearfix:after {
+	content: '';
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+body {
+	font-family: "Didact Gothic";
+	background:#000;
+	background-attachment:fixed;
+	background-size: cover;
+	overflow: hidden;
+	overflow-y: scroll;
+    font-size: 12pt;
+    font-weight: 200;
+    color: #FFF;
+}
+
+body.body--hidden {
+	overflow: hidden;
+}
+
+
+.codrops-header,
+.content--related {
+	-webkit-transition: opacity 300ms ease-in-out;
+	transition: opacity 300ms ease-in-out;
+}
+
+.hidden {
+	position: absolute;
+	overflow: hidden;
+	width: 0;
+	height: 0;
+	pointer-events: none;
+}
+/* Header */
+
+.codrops-header {
+	padding: 2em 1em;
+	text-align: center;
+}
+
+.codrops-header h1 {
+	font-family:"Didact Gothic";
+	font-size: 2.25em;
+	font-weight: 400;
+	line-height: 1.2;
+	margin: .5em 0 0;
+}
+
+.codrops-header h1 span {
+	font-family:"Didact Gothic";
+	font-size: .45em;
+	display: block;
+	padding: .5em 0 1em;
+	color: #999;
+}
+/* Top Navigation Style */
+
+.codrops-links {
+	position: relative;
+	display: inline-block;
+	text-align: center;
+	white-space: nowrap;
+}
+
+.codrops-links::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 50%;
+	width: 2px;
+	height: 100%;
+	margin-left: -1px;
+	background: #ddd;
+	-webkit-transform: rotate3d(0, 0, 1, 22.5deg);
+	transform: rotate3d(0, 0, 1, 22.5deg);
+}
+
+.codrops-icon {
+	display: inline-block;
+	width: 1.5em;
+	margin: .5em;
+	padding: 0em 0;
+	text-decoration: none;
+}
+
+.codrops-icon span {
+	display: none;
+}
+
+.codrops-icon:before {
+	font-family:"Didact Gothic";
+	font-weight: normal;
+	font-style: normal;
+	font-variant: normal;
+	line-height: 1;
+	margin: 0 5px;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
+     speak: none;
+}
+
+.codrops-demos {
+	margin: 2em 0 0;
+}
+
+.codrops-demos a {
+	display: inline-block;
+	margin: 0 .5em;
+}
+
+.codrops-demos a.current-demo {
+	font-family:"Didact Gothic";
+	font-weight: bold;
+}
+
+
+.content {
+	padding: 1em 0 4em;
+}
+/* Related demos */
+
+.content--related {
+		font-family:"Didact Gothic";
+	font-weight: bold;
+	text-align: center;
+}
+
+.media-item {
+	display: inline-block;
+	padding: 1em;
+	vertical-align: top;
+	-webkit-transition: color .3s;
+	transition: color .3s;
+}
+
+.media-item__img {
+	max-width: 100%;
+	opacity: .3;
+	-webkit-transition: opacity .3s;
+	transition: opacity .3s;
+}
+
+.media-item:hover .media-item__img,
+.media-item:focus .media-item__img {
+	opacity: 1;
+}
+
+.media-item__title {
+		font-family:"Didact Gothic";
+	font-size: 1em;
+	margin: 0;
+	padding: .5em;
+}
+
+/* cards wrapper and close btn */
+
+.wrapper {
+	overflow: auto;
+	width: 95%;
+	max-width: 1366px;
+	margin: 0 auto;
+}
+
+@media screen and (max-width: 50em) {
+	.codrops-header {
+		padding: 3em 10% 4em;
+	}
+}
+
+@media screen and (max-width: 40em) {
+	.codrops-header h1 {
+			font-family:"Didact Gothic";
+		font-size: 2.4em;
+		line-height: 1.2;
+	}
+}
