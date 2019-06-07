@@ -1,0 +1,31 @@
+body {
+	font: didact-gothic 0.9em Arial; margin:0; padding:0; padding-bottom:60px;
+	
+	}
+h2 {display:inline;
+}
+.div1, .div2 {width:1175px;margin:0 auto;}
+.div1 {margin-top:30px;
+ margin-bottom:60px;text-align:center;line-height:20px;}
+.div1 P {font-size:18px;}
+.div1 a, .div2 a {
+ }
+.div2 {
+	    margin-top:70px;
+		font-family:didact gothic;
+        display: inline-block;
+		padding: 1em 2em 1em 2em;
+		letter-spacing: 0.10em;
+		margin-top: 2em;
+		padding: 1.40em 3em;
+		border: 2px solid rgba(255,255,255,1);
+		border-radius: 6px;
+		text-decoration: none;
+		font-weight: 700;
+		font-size: 1em;
+		color: #000;
+		background:#FFF;
+}
+.div2 li {padding-top:6px;padding-bottom:6px; color:#000}
+.floatLeft {float:left;
+}

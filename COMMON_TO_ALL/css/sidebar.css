@@ -1,0 +1,153 @@
+.menu-button {
+	content:url(../images/menu-circular-button_318-31438.png);
+	position: static;
+	padding: 0;
+    border: none;
+	color: transparent;
+	background: transparent;
+}
+
+.menu-button::before {
+	position:static;
+	content:url(../images/menu-circular-button_318-31438.png);
+}
+
+.menu-button:hover {
+
+	opacity: 0.6;
+	
+}
+
+.close-button {
+	width: 1em;
+	height: 1em;
+	position: absolute;
+	right: 1em;
+	top: 1em;
+	overflow: hidden;
+	text-indent: 1em;
+	border: none;
+	background: transparent;
+	color: transparent;
+	cursor:pointer;
+}
+
+.close-button::before,
+.close-button::after {
+	content: '';
+	position: absolute;
+	width: 2px;
+	height: 100%;
+	top: 0;
+	left: 50%;
+	background: #b8b7ad;
+}
+
+.close-button::before {
+	-webkit-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.close-button::after {
+	-webkit-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+.menu-wrap {
+	position: absolute;
+	z-index: 1001;
+	width: 300px;
+	height: 500px;
+	background:#FFF;
+	color:#000;
+	padding: 2em;
+	-webkit-transform: translate3d(-320px,-320px,0);
+	transform: translate3d(-320px,-320px,0);
+	-webkit-transition: -webkit-transform 0.3s;
+	transition: transform 0.3s;
+	font-family:"Didact Gothic";
+}
+
+.profile {
+	display: inline-block;
+	line-height: 42px;
+	margin-bottom: 1em;
+	font-weight: 700;
+	font-family:"Didact Gothic";
+     color:#00F;
+}
+
+.icon-list a {
+	display: block;
+	color:#000;
+	font-weight: 700;
+	padding: 0.8em 0.55em;
+    font-family: "Didact Gothic";
+}
+
+.icon-list a:hover,
+.icon-list a:focus {
+	color: #c94e50;
+}
+
+.icon-list a i {
+	opacity: 0.5;
+	color: #c94e50;
+}
+
+.icon-list a span {
+	margin-left: 10px;
+}
+
+/* Shown menu */
+.show-menu .menu-wrap {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+.show-menu .content-wrap {
+	-webkit-transform: translate3d(80px,80px,0);
+	transform: translate3d(80px,80px,0);
+}
+
+.show-menu .content::before {
+	opacity: 1;
+	-webkit-transition: opacity 0.3s;
+	transition: opacity 0.3s;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+
+@font-face {
+	font-weight: normal;
+	font-style: normal;
+	font-family:"Didact Gothic";
+}
+
+*, *:after, *:before { -webkit-box-sizing: border-box; box-sizing: border-box; }
+.clearfix:before, .clearfix:after { content: ''; display: table; }
+.clearfix:after { clear: both; }
+
+body {
+	background: #b4bad2;
+	color: #fffce1;
+	font-weight: 400;
+	font-size: 1em;
+	font-family:"Didact Gothic";
+}
+a {
+	color: #4e4a46;
+	text-decoration: none;
+	outline: none;
+}
+a:hover, a:focus {
+	color: #c94e50;
+	outline: none;
+}
+.neon {
+    color: #000;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF,
+             0 0 15px #FFF, 0 0 20px #FFF,
+             0 0 25px #FFF;
+}

@@ -1,0 +1,388 @@
+	html, body
+	{
+		height: 100%;
+		zoom: 90%;
+	}
+	
+	
+	body
+	{
+		margin: 0%;
+		padding: 0%;
+		background: #111111;
+		font-family: 'Didact Gothic', sans-serif;
+		font-size: 12pt;
+		font-weight: 200;
+		color: #FFF;
+		background:#000;
+		background-attachment:fixed;
+		zoom: 90%;
+	}
+	
+	
+	h1, h2, h3
+	{
+		margin: 0;
+		padding: 0;
+	}
+	
+	p, ol, ul
+	{
+		margin-top: 0;
+	}
+	
+	ol, ul
+	{
+		padding: 0;
+		list-style: none;
+	}
+	
+	p
+	{
+		line-height: 180%;
+		margin:0 50px 0 50px;
+	}
+	
+	a
+	{
+		color: #ee0000;
+	}
+	
+	a:hover
+	{
+		text-decoration: inherit;
+	}
+	
+
+	
+	
+	
+	
+/*********************************************************************************/
+/* Image Style                                                                   */
+/*********************************************************************************/
+
+.box
+{margin-left:100px;
+margin-right:100px;
+text-align:justify;
+}
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/  
+	
+	.button
+	
+	
+	{
+		font-family:"Didact Gothic";
+		display: inline-block;
+		padding: 1em 2em 1em 2em;
+		letter-spacing: 0.10em;
+		margin-top: 2em;
+		padding: 1.40em 3em;
+		border: 2px solid rgba(255,255,255,1);
+		background:url(images/giphy.gif);
+		border-radius: 6px;
+		text-decoration: none;
+		font-weight: 700;
+		font-size: 1em;
+		color: #FFF;
+		
+	}
+	
+	
+	.button-alt
+	{
+		padding: 1em 2em;
+		border-color: rgba(0,0,0,.8);
+		color: rgba(0,0,0,.8);
+	}
+	
+	a.button
+{
+
+background-color: transparent;
+
+}
+
+a.button:hover
+{
+	color:#000;
+}
+
+
+/*********************************************************************************/
+/* Header                                                                        */
+/*********************************************************************************/
+
+	#header-wrapper
+	{
+		position: relative;
+		color:#FFF;
+		background:url(../Homepage/home.jpg);
+		background-attachment: fixed;
+		background-repeat:no-repeat;
+		
+	}
+	
+	
+	#header-wrapperia
+	{
+		position: relative;
+		color:#FFF;
+		background:url(../Gis%20and%20RS/images/ehp.122-A268.g001.jpg);
+		background-attachment: fixed;
+		background-repeat:no-repeat;
+		
+	}
+
+	#header-wrapperwa
+	{
+		position: relative;
+		color:#FFF;
+		background:url(../Introduction/Introduction.jpg);
+		background-attachment: fixed;
+		background-repeat:no-repeat;
+		
+	}
+
+
+	#header-wrappera
+	{
+		position: relative;
+		color:#FFF;
+		background:url(../case%20study/casestudy.jpg);
+		background-attachment: fixed;
+		background-repeat:no-repeat;
+		
+	}
+	
+	#header-wrapperandu
+	{
+		position: relative;
+		color:#FFF;
+		background:url(../relevance%20to%20groundwater/back.jpg);
+		background-attachment: fixed;
+		background-repeat:no-repeat;
+		
+	}
+	#header
+	{
+		position: relative;
+		padding: 5em 0em;
+		background-attachment:fixed;
+	}
+
+/*********************************************************************************/
+/* Logo                                                                          */
+/*********************************************************************************/
+	#logo
+	{
+	position: absolute;
+	top: 2.0em;
+	left: 0;
+	width: 648px;
+	height: 68px;
+	}
+	
+	#logo h1
+	{
+		font-size: 2.6em;
+		color: #79C255;
+	}
+	
+	#logo a
+	{
+		text-decoration: none;
+		color: rgba(255,255,255,1);
+	}
+
+
+/*********************************************************************************/
+/* Menu                                                                          */
+/*********************************************************************************/
+	
+	#menu
+	{
+		position: absolute;
+		top: 4.5em;
+		right: 0;
+	}
+	
+	#menu ul
+	{
+	}
+	
+	#menu li
+	{
+		display: block;
+		float: left;
+		margin-right:2px;
+		text-align: center;
+		
+		
+	}
+	
+	#menu li a, #menu li span
+	{
+		padding: 1em 1.5em;
+		letter-spacing: 1px;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-size: 0.75em;
+		color: rgba(255,255,255,0.80);
+	}
+	
+	#menu li:hover a, #menu .inactive a
+	{
+		color:#000;
+	}
+	
+	#menu .active a
+	{
+		border: 2px solid rgba(255,255,255,1);
+		border-radius: 6px;
+		color: #FFF;
+	}
+ 
+
+
+/*********************************************************************************/
+/* Banner                                                                        */
+/*********************************************************************************/
+
+	#banner
+	{
+		padding-top: 2em;
+		text-align: center;
+	}
+	
+	#banner .title h2
+	{
+		font-size: 4em;
+	}
+	
+	#banner .title .byline
+	{
+		font-size: 2em;
+	}
+	
+	#banner .button
+	{
+		margin-top: 2em;
+		padding: 1.40em 3em;
+		border: 2px solid rgba(255,255,255,1);
+		border-radius: 6px;
+		font-weight: 700;
+		font-size: 1em;
+		
+	}
+/*********************************************************************************/
+/* Copyright                                                                     */
+/*********************************************************************************/
+
+	#copyright
+	{
+		overflow: hidden;
+	     background:#000;
+			}
+	
+	#copyright p
+	{
+		text-align: center;
+		font-size: 1em;
+		 background:#000;
+		
+		  }
+	
+	#copyright a
+	{
+		text-decoration: none;
+	 background:#000;
+		
+	}
+
+/*********************************************************************************/
+/*Butra TOD                                                                    */
+/*********************************************************************************/
+
+
+
+.butra
+	
+	
+	{
+		display: inline-block;
+		padding: 1em 2em 1em 2em;
+		letter-spacing: 0.10em;
+		margin-top: 2em;
+		padding: 1.40em 3em;
+		border: 2px solid rgba(255,255,255,1);
+		border-radius: 360px;
+		text-decoration: none;
+		font-weight: 700;
+		font-size: 1em;
+		color: #FFF;
+		background:url(../Gis%20and%20RS/images/3.jpg);
+	}
+	
+	a.butra
+{
+
+background-color: transparent;
+}
+
+a.butra:hover
+{
+	background-color: #FFF;
+color:#000
+}
+
+
+
+
+
+
+
+  .effectscale {
+  border: none;
+  margin: 0 auto;
+}
+
+
+.effectscale:hover
+{
+  -webkit-transform: scale(1.9) ;
+  -moz-transform: scale(1.9);
+  -o-transform: scale(1.9);
+  transform: scale(1.9);
+  transition: all 3s;
+  -webkit-transition: all 3s;
+}
+
+
+
+
+
+
+
+	.buttonwa
+	
+	
+	{
+		font-family:"Didact Gothic";
+		display: inline-block;
+		padding: 1em 2em 1em 2em;
+		letter-spacing: 0.10em;
+		margin-top: 2em;
+		padding: 1.40em 3em;
+		border: 2px solid rgba(255,255,255,1);
+		border-radius: 6px;
+		text-decoration: none;
+		font-weight: 700;
+		font-size: 1em;
+		color:#fff;
+		background:#000;
+		
+	}

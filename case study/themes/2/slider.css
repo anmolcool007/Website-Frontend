@@ -1,0 +1,108 @@
+﻿#mcts1 
+{
+	
+    width:106px;
+    height:820px;
+    padding:14px;
+	margin-left:40px;
+	margin-right:10px;	
+    border:1px solid #ddd;
+    box-shadow: 0px 1px 3px #CCCCCC;
+	text-align:center;
+	margin-top:70px;
+	font-family:didact gothic;
+    display: inline-block;
+    padding: 1em 2em 1em 2em;
+		letter-spacing: 0.10em;
+		margin-top: 2em;
+		padding: 1.40em 3em;
+		border: 2px solid rgba(255,255,255,1);
+		border-radius: 6px;
+		text-decoration: none;
+		font-weight: 700;
+		font-size: 1em;
+		color: #FFF;
+    
+    position:relative;
+    font-size:0px;
+}
+#mcts1>* {display:none;}
+#mcts1 div.item 
+{
+    width:100px;
+    padding:2px;
+    margin: 0 0 6px 0; 
+    border:1px solid #DDD;
+    text-align:center;
+    position:relative;/*??*/
+}
+
+#mcts1 img 
+{
+    border:none;
+}
+       
+#mcts1 .navBullets
+{
+    display:none;
+}
+
+
+#mcts1 .navPrev, #mcts1 .navNext, #mcts1 .navPlay, #mcts1 .navPause 
+{
+    width:29px; height:29px;
+    position:absolute; top:244px;
+    display:block; z-index:5; cursor:pointer;
+}
+#mcts1 .navPrev {background-position:0 -87px;left:-550px; background-image:url(Back.gif) }
+
+#mcts1 .navPrev:hover {background-position:-29px -87px; background-image:url(Back2.gif)}
+
+#mcts1 .navPrevDisabled, #mcts1 .navPrevDisabled:hover {background-position:-58px -87px;cursor:default;}
+
+#mcts1 .navNext {background-position:0 -58px;left:-450px; background-image:url(for.gif)} 
+
+#mcts1 .navNext:hover {background-position:-29px -58px; background-image:url(for2.gif)} 
+
+#mcts1 .navNextDisabled, #mcts1 .navNextDisabled:hover {background-position:-58px -58px; cursor:default;} 
+
+
+
+
+.navPrev, .navPlay, .navPause, .navNext 
+{
+   -moz-user-select: -moz-none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+   -o-user-select: none;
+   user-select: none;
+}
+
+        
+.navBullets
+{
+	z-index:5;
+	cursor:pointer;
+	position:absolute;
+	top:20px;
+	left:220px;
+	width:24px;
+}
+.navBullets div 
+{
+    width:8px; height:8px;
+	display:none;
+    float:left;overflow:hidden;vertical-align:middle;cursor:pointer;
+    margin-right:6px;
+    _position:relative;
+}
+
+.navBullets div.focus {background-position:0 -8px;}
+#mcts1
+{
+	transform: translate3d(0,0,0);
+    -ms-transform:translate3d(0,0,0);
+    -moz-transform:translate3d(0,0,0);
+    -o-transform:translate3d(0,0,0);
+}
+
